@@ -100,7 +100,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Symon Petlura"
 	desc = "The first president of Belarusian People's Republic. A writer, philantrop, and a sex bomb"
-	picture = "gfx/leaders/BPR/GFX_portrait_Jan_Siereda.dds"
+	picture = "gfx/leaders/UKR/GFX_portrait_Symon_Petliura.dds"
 	ideology = liberalism
 	traits = {
 		#
