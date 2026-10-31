@@ -1,0 +1,93 @@
+﻿focus_tree = {
+	id = belarus_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BLR
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = BLR_survived
+		icon = GFX_BLR_survived
+		
+		x = 3
+		y = 5
+		#relative_position_id = AST_empower_the_workers
+		
+		cost = 10
+		#prerequisite = { country_exists = BPR }
+
+
+		available = {
+			BPR = { is_subject = no }
+			NOT = { is_ally_with = GER }
+			NOT = { is_ally_with = SOV }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+	focus = {
+		id = BLR_elections
+		icon = GFX_goal_generic_major_war
+		
+		x = 1
+		y = 1
+		relative_position_id = BLR_survived
+		
+		cost = 10
+		prerequisite = { focus = BLR_survived }
+
+
+		available = {
+			BPR = { is_subject = no }
+			NOT = { is_ally_with = GER }
+			NOT = { is_ally_with = SOV }
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+}		
