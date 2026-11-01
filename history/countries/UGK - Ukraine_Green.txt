@@ -98,7 +98,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Yuri Mova"
 	desc = "The first president of Green-Ukraine Republic. A writer, philantrop, and a sex bomb"
-	picture = "gfx/leaders/UKR/GK_GFX_portrait_Yuri_Mova.dds"
+	picture = "gfx/leaders/UKR/GK_portrait_Yuri_Mova.dds"
 	ideology = liberalism
 	traits = {
 		#
