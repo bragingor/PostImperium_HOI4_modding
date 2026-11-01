@@ -373,6 +373,21 @@ UKR = {
 	color_ui = rgb { 0  80  230 }	
 }
 
+UGK = {
+	color = rgb { 0  128  0 }
+	color_ui = rgb { 0  128  0 }	
+}
+
+USK = {
+	color = rgb { 192 192 192 }
+	color_ui = rgb { 192 192 192 }	
+}
+
+TUG = {
+	color = rgb { 10 10 10 }
+	color_ui = rgb { 10 10 10 }	
+}
+
 AZR = {
 	color = rgb { 69  151  49 }
 	color_ui = rgb { 69  151  49 }
