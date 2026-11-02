@@ -1,0 +1,43 @@
+state = {
+	id = 1302
+	name = "STATE_1302"
+	manpower = 43052
+	
+	state_category = rural
+
+	history = {
+
+		owner = SOV
+
+		victory_points = {
+			9680 2 # Kerch
+		}
+
+		
+		buildings = {
+
+			infrastructure = 3
+			dockyard = 1
+			air_base = 3
+
+		}
+
+			9680 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+			
+		
+
+		add_core_of = SOV
+		add_core_of = CRI
+
+
+	}
+
+	provinces = {
+		9677 9680
+	}
+
+	local_supplies = 10.0 
+}
