@@ -8,4 +8,5 @@ tags={
 	"Military"
 }
 name="PostImperium"
-supported_version="1.19.4.1"
+supported_version="1.19.*"
+remote_file_id="3836254894"
