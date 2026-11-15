@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = NEN
+		owner = KAR
 
 		victory_points = {
 			3134 5 
@@ -29,7 +29,7 @@ state={
 			}
 		}
 
-		add_core_of = NEN
+		add_core_of = KAR
 		add_core_of = SMI
 		
 	}
